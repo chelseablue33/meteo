@@ -16,6 +16,7 @@
 		F8A758D01EA7082A00FD18F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A758CE1EA7082A00FD18F6 /* Main.storyboard */; };
 		F8A758D21EA7082A00FD18F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A758D11EA7082A00FD18F6 /* Assets.xcassets */; };
 		F8A758D51EA7082A00FD18F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A758D31EA7082A00FD18F6 /* LaunchScreen.storyboard */; };
+		F8F61F601EB6BD0A0066598C /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F61F5F1EB6BD0A0066598C /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F8A758D11EA7082A00FD18F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8A758D41EA7082A00FD18F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8A758D61EA7082A00FD18F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F61F5F1EB6BD0A0066598C /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				DDC831E81EB2139600CE3902 /* CityViewController.swift */,
 				DDC831EA1EB213BF00CE3902 /* CityPageViewController.swift */,
 				F88CA8841EB4D5AD00B8B10D /* CityInfo.swift */,
+				F8F61F5F1EB6BD0A0066598C /* SelectionViewController.swift */,
 			);
 			path = meteo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				F8A758CB1EA7082A00FD18F6 /* AppDelegate.swift in Sources */,
 				F88CA8851EB4D5AD00B8B10D /* CityInfo.swift in Sources */,
 				DDC831E91EB2139600CE3902 /* CityViewController.swift in Sources */,
+				F8F61F601EB6BD0A0066598C /* SelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

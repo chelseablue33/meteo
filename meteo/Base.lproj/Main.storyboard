@@ -419,7 +419,7 @@
         <!--Arts-->
         <scene sceneID="3GX-hw-Bgq">
             <objects>
-                <viewController id="Eqa-Gg-raG" userLabel="Arts" sceneMemberID="viewController">
+                <viewController id="Eqa-Gg-raG" userLabel="Arts" customClass="SelectionViewController" customModule="meteo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k9e-FU-x3O"/>
                         <viewControllerLayoutGuide type="bottom" id="004-ha-Pqz"/>
@@ -456,6 +456,10 @@
                                 </constraints>
                                 <color key="tintColor" red="0.12689253687858582" green="0.59889018535614014" blue="0.80189007520675659" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Butt" image="painting"/>
+                                <state key="selected" image="painting selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="7jn-4g-Bx9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOu-p3-bXG" userLabel="book">
                                 <rect key="frame" x="145" y="160.5" width="84" height="84"/>
@@ -464,6 +468,10 @@
                                     <constraint firstAttribute="height" constant="84" id="psX-qL-FEc"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="books"/>
+                                <state key="selected" image="books selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="IeQ-Yh-hKP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KoX-q4-Zcy" userLabel="cine">
                                 <rect key="frame" x="242" y="160.5" width="84" height="84"/>
@@ -472,6 +480,10 @@
                                     <constraint firstAttribute="height" constant="84" id="cJg-bQ-WmA"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="cinema"/>
+                                <state key="selected" image="cinema selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="3e2-m8-G2I"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRx-kr-Hpe" userLabel="dance">
                                 <rect key="frame" x="48" y="257.5" width="84" height="84"/>
@@ -480,6 +492,10 @@
                                     <constraint firstAttribute="height" constant="84" id="oD8-5P-Ofi"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="dance"/>
+                                <state key="selected" image="dance selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="Pc3-Xy-QEu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfG-Uz-vKq" userLabel="church">
                                 <rect key="frame" x="145" y="257.5" width="84" height="84"/>
@@ -488,6 +504,10 @@
                                     <constraint firstAttribute="width" constant="84" id="Tw0-zL-kdT"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="cathedral"/>
+                                <state key="selected" image="cathedral selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="d3u-mC-W0A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqa-sd-2hh" userLabel="gallery">
                                 <rect key="frame" x="242" y="257.5" width="84" height="84"/>
@@ -496,6 +516,10 @@
                                     <constraint firstAttribute="height" constant="84" id="f5u-s3-jOb"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="art gall"/>
+                                <state key="selected" image="art gall selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="8ZP-TV-QMh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43v-gb-A8d" userLabel="museum">
                                 <rect key="frame" x="48" y="354.5" width="84" height="84"/>
@@ -504,6 +528,10 @@
                                     <constraint firstAttribute="height" constant="84" id="xiO-YL-ULZ"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="museum-1"/>
+                                <state key="selected" image="museum selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="hI4-rv-2rT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9y-Mv-faC" userLabel="draw">
                                 <rect key="frame" x="145" y="354.5" width="84" height="84"/>
@@ -512,6 +540,10 @@
                                     <constraint firstAttribute="width" constant="84" id="nqM-jF-A0z"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="drawing"/>
+                                <state key="selected" image="drawing selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="4Gx-dn-IuR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7i-Zk-lzl" userLabel="theatre">
                                 <rect key="frame" x="242" y="354.5" width="84" height="84"/>
@@ -520,6 +552,10 @@
                                     <constraint firstAttribute="height" constant="84" id="I8k-f2-6uo"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="theartre"/>
+                                <state key="selected" image="theartre selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="4Or-jF-3FQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nL-RW-XPg" userLabel="acting">
                                 <rect key="frame" x="48.5" y="451.5" width="84" height="84"/>
@@ -529,6 +565,10 @@
                                 </constraints>
                                 <color key="tintColor" red="0.12689253687858582" green="0.59889018535614014" blue="0.80189007520675659" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="Acting"/>
+                                <state key="selected" image="acting selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="U0Z-5s-CZf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIr-0g-M5Z" userLabel="pottery">
                                 <rect key="frame" x="145.5" y="451.5" width="84" height="84"/>
@@ -537,6 +577,10 @@
                                     <constraint firstAttribute="width" constant="84" id="fzb-tr-Byd"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="pottery"/>
+                                <state key="selected" image="pottery slected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="tS5-gt-0Rh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ea-7J-RJY" userLabel="other">
                                 <rect key="frame" x="242.5" y="451.5" width="84" height="84"/>
@@ -545,6 +589,10 @@
                                     <constraint firstAttribute="width" constant="84" id="KkL-Qd-ecU"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="other"/>
+                                <state key="selected" image="other selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Eqa-Gg-raG" eventType="touchUpInside" id="mro-yA-3hC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqd-ob-ELP">
                                 <rect key="frame" x="319" y="66" width="51" height="30"/>
@@ -599,9 +647,7 @@
                             <constraint firstItem="mfG-Uz-vKq" firstAttribute="centerX" secondItem="X7r-SQ-CeM" secondAttribute="centerX" id="zL1-zC-AFf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Arts" image="ballet" id="Lnj-O9-A7M">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="3"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Arts" image="ballet" id="Lnj-O9-A7M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xgm-tc-tzw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -610,7 +656,7 @@
         <!--Sports-->
         <scene sceneID="ing-CB-hqL">
             <objects>
-                <viewController id="pq2-Uc-Yxk" userLabel="Sports" sceneMemberID="viewController">
+                <viewController id="pq2-Uc-Yxk" userLabel="Sports" customClass="SelectionViewController" customModule="meteo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="19b-ew-60U"/>
                         <viewControllerLayoutGuide type="bottom" id="sw2-Rs-Ka6"/>
@@ -632,7 +678,11 @@
                                     <constraint firstAttribute="height" constant="84" id="MOc-vh-Uru"/>
                                     <constraint firstAttribute="width" constant="84" id="MmL-Zg-b5v"/>
                                 </constraints>
-                                <state key="normal" image="soccer"/>
+                                <state key="normal" title="Button" image="soccer"/>
+                                <state key="selected" image="soccer selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="ogX-sG-Iwr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mj8-jp-EYK" userLabel="ski">
                                 <rect key="frame" x="48.5" y="257.5" width="84" height="84"/>
@@ -640,7 +690,11 @@
                                     <constraint firstAttribute="width" constant="84" id="2HT-TN-kII"/>
                                     <constraint firstAttribute="height" constant="84" id="vQd-en-kH6"/>
                                 </constraints>
-                                <state key="normal" image="skii"/>
+                                <state key="normal" title="Button" image="skii"/>
+                                <state key="selected" image="skii selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="8Yd-ge-np6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g5-Fp-zL6" userLabel="football">
                                 <rect key="frame" x="48.5" y="354.5" width="84" height="84"/>
@@ -648,7 +702,11 @@
                                     <constraint firstAttribute="width" constant="84" id="B6w-Ni-yd4"/>
                                     <constraint firstAttribute="height" constant="84" id="tsO-ia-2fq"/>
                                 </constraints>
-                                <state key="normal" image="rugby"/>
+                                <state key="normal" title="Button" image="rugby"/>
+                                <state key="selected" image="rugby selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="Eyk-qS-nMC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVa-eK-Wyx" userLabel="bicycle">
                                 <rect key="frame" x="48.5" y="451.5" width="84" height="84"/>
@@ -656,7 +714,11 @@
                                     <constraint firstAttribute="height" constant="84" id="6B6-lE-upx"/>
                                     <constraint firstAttribute="width" constant="84" id="rlx-mY-t20"/>
                                 </constraints>
-                                <state key="normal" image="bicycle"/>
+                                <state key="normal" title="Button" image="bicycle"/>
+                                <state key="selected" image="bicycle selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="j1f-o7-Xjs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agt-dX-9Pv" userLabel="swim">
                                 <rect key="frame" x="145.5" y="160.5" width="84" height="84"/>
@@ -664,7 +726,11 @@
                                     <constraint firstAttribute="height" constant="84" id="GQ1-EN-gel"/>
                                     <constraint firstAttribute="width" constant="84" id="NBg-qg-Uv1"/>
                                 </constraints>
-                                <state key="normal" image="swim"/>
+                                <state key="normal" title="Button" image="swim"/>
+                                <state key="selected" image="swim selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="e2j-O8-aay"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eo-G1-EIe" userLabel="run">
                                 <rect key="frame" x="242.5" y="257.5" width="84" height="84"/>
@@ -672,7 +738,11 @@
                                     <constraint firstAttribute="height" constant="84" id="9i2-l9-oUc"/>
                                     <constraint firstAttribute="width" constant="84" id="Rkf-WG-SLv"/>
                                 </constraints>
-                                <state key="normal" image="run"/>
+                                <state key="normal" title="Button" image="run"/>
+                                <state key="selected" image="run selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="5Vt-GL-SZa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS1-Xp-UBi" userLabel="cliff">
                                 <rect key="frame" x="145.5" y="354.5" width="84" height="84"/>
@@ -680,7 +750,11 @@
                                     <constraint firstAttribute="width" constant="84" id="8nz-OB-iy6"/>
                                     <constraint firstAttribute="height" constant="84" id="CwY-Mf-gXu"/>
                                 </constraints>
-                                <state key="normal" image="climb"/>
+                                <state key="normal" title="Button" image="climb"/>
+                                <state key="selected" image="climb selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="S3R-RO-c69"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZ8-oP-GZl" userLabel="basketball">
                                 <rect key="frame" x="145.5" y="451.5" width="84" height="84"/>
@@ -688,7 +762,11 @@
                                     <constraint firstAttribute="height" constant="84" id="Nbf-sZ-gcg"/>
                                     <constraint firstAttribute="width" constant="84" id="zyr-LV-XXq"/>
                                 </constraints>
-                                <state key="normal" image="basketball"/>
+                                <state key="normal" title="Button" image="basketball"/>
+                                <state key="selected" image="basketball selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="hPc-MC-xq3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itN-ae-XwT" userLabel="tennis">
                                 <rect key="frame" x="242.5" y="160.5" width="84" height="84"/>
@@ -696,7 +774,11 @@
                                     <constraint firstAttribute="height" constant="84" id="Kpk-qd-H1J"/>
                                     <constraint firstAttribute="width" constant="84" id="uyY-jG-RWV"/>
                                 </constraints>
-                                <state key="normal" image="tennis"/>
+                                <state key="normal" title="Button" image="tennis"/>
+                                <state key="selected" image="tennis selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="8TK-kn-vj2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEd-iB-G7P" userLabel="volleyball">
                                 <rect key="frame" x="242.5" y="354.5" width="84" height="84"/>
@@ -704,7 +786,11 @@
                                     <constraint firstAttribute="height" constant="84" id="5uU-yy-Tm6"/>
                                     <constraint firstAttribute="width" constant="84" id="T6M-3T-9eK"/>
                                 </constraints>
-                                <state key="normal" image="volley"/>
+                                <state key="normal" title="Button" image="volley"/>
+                                <state key="selected" image="volley selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="7h7-KR-AqD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmP-Nv-sjn" userLabel="weight">
                                 <rect key="frame" x="145.5" y="257.5" width="84" height="84"/>
@@ -712,7 +798,11 @@
                                     <constraint firstAttribute="height" constant="84" id="CVV-fb-8y3"/>
                                     <constraint firstAttribute="width" constant="84" id="MyF-6z-Vlc"/>
                                 </constraints>
-                                <state key="normal" image="lifting"/>
+                                <state key="normal" title="Button" image="lifting"/>
+                                <state key="selected" image="lifting selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="iCR-a6-RZx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="meteo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDg-5L-yVP">
                                 <rect key="frame" x="41" y="16" width="70" height="28"/>
@@ -733,7 +823,11 @@
                                     <constraint firstAttribute="width" constant="84" id="PxV-vi-eg1"/>
                                     <constraint firstAttribute="height" constant="84" id="yKF-TY-VkZ"/>
                                 </constraints>
-                                <state key="normal" image="other"/>
+                                <state key="normal" title="Button" image="other"/>
+                                <state key="selected" image="other selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="pq2-Uc-Yxk" eventType="touchUpInside" id="pJc-p8-dpZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5K-4f-mtz">
                                 <rect key="frame" x="319" y="66" width="51" height="30"/>
@@ -788,9 +882,7 @@
                             <constraint firstItem="agt-dX-9Pv" firstAttribute="top" secondItem="Og2-kT-TiI" secondAttribute="bottom" constant="28" id="ueJ-Gb-6H0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sports" image="sports-mini" id="ndq-Eu-f24">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="3"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Sports" image="sports-mini" id="ndq-Eu-f24"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fdj-Wo-Jvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -799,7 +891,7 @@
         <!--Food and Drinks-->
         <scene sceneID="u9y-ou-O0G">
             <objects>
-                <viewController id="Zcy-n3-wZG" userLabel="Food and Drinks" sceneMemberID="viewController">
+                <viewController id="Zcy-n3-wZG" userLabel="Food and Drinks" customClass="SelectionViewController" customModule="meteo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="81a-Mj-8j4"/>
                         <viewControllerLayoutGuide type="bottom" id="tIQ-Mm-tXI"/>
@@ -848,10 +940,13 @@
                                     <constraint firstAttribute="width" constant="84" id="fr1-h6-Tmz"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Cocktail"/>
-                                <state key="selected">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="selected" image="Cocktail selected">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="DHQ-dD-jUc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gu-d6-SGR">
                                 <rect key="frame" x="145.5" y="161" width="84" height="84"/>
@@ -860,6 +955,12 @@
                                     <constraint firstAttribute="height" constant="84" id="shV-1I-HOO"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="bakery"/>
+                                <state key="selected" image="bakery selected">
+                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="oAX-fk-NDS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdY-tN-hC7">
                                 <rect key="frame" x="242.5" y="161" width="84" height="84"/>
@@ -868,6 +969,10 @@
                                     <constraint firstAttribute="height" constant="84" id="brF-og-cw2"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="beer garden"/>
+                                <state key="selected" image="beer garden selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="6C1-V1-c3M"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfN-Yc-bDj">
                                 <rect key="frame" x="242.5" y="258" width="84" height="84"/>
@@ -876,6 +981,10 @@
                                     <constraint firstAttribute="height" constant="84" id="TMs-MA-tID"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="farmer market"/>
+                                <state key="selected" image="farmer market selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="JG1-DD-72G"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFC-LH-qq9">
                                 <rect key="frame" x="242" y="355" width="84" height="84"/>
@@ -884,6 +993,10 @@
                                     <constraint firstAttribute="height" constant="84" id="bmp-ho-LMY"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="resto"/>
+                                <state key="selected" image="resto selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="Abr-US-EnX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YR5-rS-fej">
                                 <rect key="frame" x="242.5" y="452" width="84" height="84"/>
@@ -892,6 +1005,10 @@
                                     <constraint firstAttribute="height" constant="84" id="kF2-nu-za8"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="other"/>
+                                <state key="selected" image="other selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="J5m-V5-iwf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6P-He-1I6">
                                 <rect key="frame" x="145.5" y="452" width="84" height="84"/>
@@ -900,6 +1017,11 @@
                                     <constraint firstAttribute="width" constant="84" id="pcw-zG-KyO"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="wine bar"/>
+                                <state key="selected" image="wine bar selected"/>
+                                <state key="highlighted" image="wine bar selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="Ejq-bE-eqv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj8-Pl-k3r">
                                 <rect key="frame" x="145.5" y="355" width="84" height="84"/>
@@ -908,6 +1030,10 @@
                                     <constraint firstAttribute="width" constant="84" id="udx-WH-kcA"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="happy hour"/>
+                                <state key="selected" image="happy hour selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="Oxa-6r-Skw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDt-f2-vDu">
                                 <rect key="frame" x="48.5" y="355" width="84" height="84"/>
@@ -916,6 +1042,10 @@
                                     <constraint firstAttribute="width" constant="84" id="zhQ-yo-Pgs"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="grill"/>
+                                <state key="selected" image="grill selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="2hG-hX-haX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwN-Sh-3lO">
                                 <rect key="frame" x="145.5" y="258" width="84" height="84"/>
@@ -924,6 +1054,10 @@
                                     <constraint firstAttribute="height" constant="84" id="zEZ-lI-aNE"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="dessert"/>
+                                <state key="selected" image="dessert selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="GrY-hf-lGP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ml8-7Q-UXS">
                                 <rect key="frame" x="48.5" y="258" width="84" height="84"/>
@@ -932,6 +1066,10 @@
                                     <constraint firstAttribute="height" constant="84" id="ZS3-Ec-0QC"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="burger"/>
+                                <state key="selected" image="burger selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="yhJ-c9-RXn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fN8-fS-gvS">
                                 <rect key="frame" x="48.5" y="452" width="84" height="84"/>
@@ -940,6 +1078,10 @@
                                     <constraint firstAttribute="height" constant="84" id="UP1-96-f17"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="taco truck"/>
+                                <state key="selected" image="taco truck selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="Zcy-n3-wZG" eventType="touchUpInside" id="w1r-nL-y2U"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -990,7 +1132,7 @@
         <!--Family-->
         <scene sceneID="4Xr-Bq-KVu">
             <objects>
-                <viewController id="WvI-y3-iZR" userLabel="Family" sceneMemberID="viewController">
+                <viewController id="WvI-y3-iZR" userLabel="Family" customClass="SelectionViewController" customModule="meteo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tTf-Z6-DLF"/>
                         <viewControllerLayoutGuide type="bottom" id="D8z-gU-uER"/>
@@ -1026,6 +1168,10 @@
                                     <constraint firstAttribute="height" constant="84" id="rbt-Fh-rGk"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="beach"/>
+                                <state key="selected" image="beach selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="ayQ-zV-9T3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUZ-uE-aiW">
                                 <rect key="frame" x="145.5" y="160.5" width="84" height="84"/>
@@ -1034,6 +1180,10 @@
                                     <constraint firstAttribute="width" constant="84" id="lIz-eC-abn"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="books"/>
+                                <state key="selected" image="books selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="GmM-kn-uRH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdV-cB-mgQ">
                                 <rect key="frame" x="242.5" y="160.5" width="84" height="84"/>
@@ -1042,6 +1192,10 @@
                                     <constraint firstAttribute="width" constant="84" id="sZr-4j-KpV"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="bowling"/>
+                                <state key="selected" image="bowling selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="nQG-fZ-Slw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1Y-oC-pzE">
                                 <rect key="frame" x="48" y="257.5" width="84" height="84"/>
@@ -1050,6 +1204,10 @@
                                     <constraint firstAttribute="width" constant="84" id="vj2-ID-dfC"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="dog walk"/>
+                                <state key="selected" image="dog walk selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="bKs-B0-Bc3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUd-Tq-Fgh">
                                 <rect key="frame" x="145.5" y="257.5" width="84" height="84"/>
@@ -1058,6 +1216,10 @@
                                     <constraint firstAttribute="height" constant="84" id="kd9-tB-MJV"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="family walks"/>
+                                <state key="selected" image="family walks selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="SBM-cu-Ki0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="419-Da-VNz">
                                 <rect key="frame" x="242.5" y="257.5" width="84" height="84"/>
@@ -1066,6 +1228,10 @@
                                     <constraint firstAttribute="width" constant="84" id="ztN-To-Xgi"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="art gall"/>
+                                <state key="selected" image="art gall selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="N1K-wb-N5H"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2K-fL-xci">
                                 <rect key="frame" x="48.5" y="354.5" width="84" height="84"/>
@@ -1074,6 +1240,10 @@
                                     <constraint firstAttribute="height" constant="84" id="dip-nm-wbH"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="pool"/>
+                                <state key="selected" image="pool selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="20N-rd-IMH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2q-fL-yW6">
                                 <rect key="frame" x="145.5" y="354.5" width="84" height="84"/>
@@ -1082,6 +1252,10 @@
                                     <constraint firstAttribute="width" constant="84" id="YHJ-xx-lN2"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="roadtrip"/>
+                                <state key="selected" image="roadtrip selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="wxR-5x-Vx9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzR-8C-6sO">
                                 <rect key="frame" x="242.5" y="354.5" width="84" height="84"/>
@@ -1090,6 +1264,10 @@
                                     <constraint firstAttribute="height" constant="84" id="t6L-64-O7D"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="tv watching"/>
+                                <state key="selected" image="tv watching selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="do0-B0-9wp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-pw-lQE">
                                 <rect key="frame" x="48" y="451.5" width="84" height="84"/>
@@ -1098,6 +1276,10 @@
                                     <constraint firstAttribute="width" constant="84" id="zcy-Sz-HK1"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="videogame"/>
+                                <state key="selected" image="videogame selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="F48-pe-gQe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPR-Ou-iW1">
                                 <rect key="frame" x="242" y="451.5" width="84" height="84"/>
@@ -1106,6 +1288,10 @@
                                     <constraint firstAttribute="width" constant="84" id="LcR-56-LiI"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="other"/>
+                                <state key="selected" image="other selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="0Yg-O8-Bhy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S84-QS-qRu">
                                 <rect key="frame" x="145" y="451.5" width="84" height="84"/>
@@ -1114,6 +1300,10 @@
                                     <constraint firstAttribute="height" constant="84" id="pxe-tf-b2f"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="wedding"/>
+                                <state key="selected" image="wedding selected"/>
+                                <connections>
+                                    <action selector="buttonClickedWithButton:" destination="WvI-y3-iZR" eventType="touchUpInside" id="TkL-H2-VP3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hG0-zM-npU">
                                 <rect key="frame" x="319" y="66" width="51" height="30"/>
@@ -1168,9 +1358,7 @@
                             <constraint firstItem="d2Q-2B-ljT" firstAttribute="top" secondItem="f1Z-9g-HGR" secondAttribute="top" id="z9E-im-BeL"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Family" image="family-mini-1" id="rWA-I1-EL5">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="3"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Family" image="family-mini-1" id="rWA-I1-EL5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CGV-ea-aRu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1950,75 +2138,118 @@
     <resources>
         <image name="Acting" width="81" height="81"/>
         <image name="Cocktail" width="81" height="81"/>
+        <image name="Cocktail selected" width="81" height="81"/>
         <image name="Food and drinks" width="36" height="56"/>
         <image name="Logo blue" width="240" height="146"/>
         <image name="Oval" width="150" height="150"/>
         <image name="Profile pic" width="79" height="79"/>
+        <image name="acting selected" width="81" height="81"/>
         <image name="art gall" width="81" height="81"/>
+        <image name="art gall selected" width="81" height="81"/>
         <image name="bakery" width="81" height="81"/>
+        <image name="bakery selected" width="81" height="81"/>
         <image name="ballet" width="21" height="35"/>
         <image name="ballet-tall" width="53" height="90"/>
         <image name="basketball" width="81" height="81"/>
+        <image name="basketball selected" width="81" height="81"/>
         <image name="bckg" width="320" height="584"/>
         <image name="beach" width="81" height="81"/>
+        <image name="beach selected" width="81" height="81"/>
         <image name="beer garden" width="81" height="81"/>
+        <image name="beer garden selected" width="81" height="81"/>
         <image name="bicycle" width="81" height="81"/>
+        <image name="bicycle selected" width="81" height="81"/>
         <image name="books" width="81" height="81"/>
+        <image name="books selected" width="81" height="81"/>
         <image name="bowling" width="81" height="81"/>
+        <image name="bowling selected" width="81" height="81"/>
         <image name="burger" width="81" height="81"/>
+        <image name="burger selected" width="81" height="81"/>
         <image name="cathedral" width="81" height="81"/>
+        <image name="cathedral selected" width="81" height="81"/>
         <image name="cinema" width="81" height="81"/>
+        <image name="cinema selected" width="81" height="81"/>
         <image name="climb" width="81" height="81"/>
+        <image name="climb selected" width="81" height="81"/>
         <image name="clouds" width="169" height="86"/>
         <image name="dance" width="81" height="81"/>
+        <image name="dance selected" width="81" height="81"/>
         <image name="dessert" width="81" height="81"/>
+        <image name="dessert selected" width="81" height="81"/>
         <image name="dial" width="253" height="253"/>
         <image name="dog walk" width="81" height="81"/>
+        <image name="dog walk selected" width="81" height="81"/>
         <image name="drawing" width="81" height="81"/>
+        <image name="drawing selected" width="81" height="81"/>
         <image name="family walks" width="81" height="81"/>
+        <image name="family walks selected" width="81" height="81"/>
         <image name="family-mini-1" width="21" height="26"/>
         <image name="family33" width="46" height="58"/>
         <image name="farmer market" width="81" height="81"/>
+        <image name="farmer market selected" width="81" height="81"/>
         <image name="food-mini" width="21" height="33"/>
         <image name="grill" width="81" height="81"/>
+        <image name="grill selected" width="81" height="81"/>
         <image name="happy hour" width="81" height="81"/>
+        <image name="happy hour selected" width="81" height="81"/>
         <image name="header blue" width="320" height="48"/>
         <image name="header white-1" width="320" height="48"/>
         <image name="lifting" width="81" height="81"/>
+        <image name="lifting selected" width="81" height="81"/>
         <image name="menu blue" width="22" height="22"/>
         <image name="mini storm" width="31" height="35"/>
+        <image name="museum selected" width="81" height="81"/>
         <image name="museum-1" width="81" height="81"/>
         <image name="other" width="81" height="81"/>
+        <image name="other selected" width="81" height="81"/>
         <image name="painting" width="81" height="81"/>
+        <image name="painting selected" width="81" height="81"/>
         <image name="pool" width="81" height="81"/>
+        <image name="pool selected" width="81" height="81"/>
         <image name="pottery" width="81" height="81"/>
+        <image name="pottery slected" width="81" height="81"/>
         <image name="prof pic" width="47" height="49"/>
         <image name="resto" width="81" height="81"/>
+        <image name="resto selected" width="81" height="81"/>
         <image name="roadtrip" width="81" height="81"/>
+        <image name="roadtrip selected" width="81" height="81"/>
         <image name="rugby" width="81" height="81"/>
+        <image name="rugby selected" width="81" height="81"/>
         <image name="run" width="81" height="81"/>
+        <image name="run selected" width="81" height="81"/>
         <image name="skii" width="81" height="81"/>
+        <image name="skii selected" width="81" height="81"/>
         <image name="soccer" width="81" height="81"/>
+        <image name="soccer selected" width="81" height="81"/>
         <image name="sports" width="74" height="44"/>
         <image name="sports-mini" width="35" height="21"/>
         <image name="sun" width="169" height="165"/>
         <image name="swim" width="81" height="81"/>
+        <image name="swim selected" width="81" height="81"/>
         <image name="taco truck" width="81" height="81"/>
+        <image name="taco truck selected" width="81" height="81"/>
         <image name="tennis" width="81" height="81"/>
+        <image name="tennis selected" width="81" height="81"/>
         <image name="theartre" width="81" height="81"/>
+        <image name="theartre selected" width="81" height="81"/>
         <image name="top picks" width="518" height="84"/>
         <image name="tv watching" width="81" height="81"/>
+        <image name="tv watching selected" width="81" height="81"/>
         <image name="videogame" width="81" height="81"/>
+        <image name="videogame selected" width="81" height="81"/>
         <image name="volley" width="81" height="81"/>
+        <image name="volley selected" width="81" height="81"/>
         <image name="wedding" width="81" height="81"/>
+        <image name="wedding selected" width="81" height="81"/>
         <image name="wine bar" width="81" height="81"/>
+        <image name="wine bar selected" width="81" height="81"/>
         <image name="yellow sun" width="74" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Uws-zY-ETV"/>
-        <segue reference="lMu-hL-hFZ"/>
-        <segue reference="7pS-sy-V2e"/>
         <segue reference="d71-tO-kOu"/>
-        <segue reference="TFd-Al-AXX"/>
+        <segue reference="7pS-sy-V2e"/>
+        <segue reference="lMu-hL-hFZ"/>
+        <segue reference="Rhb-Rp-nAm"/>
     </inferredMetricsTieBreakers>
 </document>
